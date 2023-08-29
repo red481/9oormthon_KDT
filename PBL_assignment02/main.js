@@ -67,8 +67,16 @@ function completeTodo(e){
     {inputBox.style.textDecoration = 'line-through';
     //console.log(e.target.parentNode.parentNode.parentNode.outerHTML);
 }
-  else
+  else{
     inputBox.style.textDecoration = 'none';
+  }
+  const node_id = e.target.parentNode.parentNode.id;
+  let obj = localStorage.getItem(node_id);
+  let parsed_obj = JSON.parse(obj);
+  parsed_obj.textDecoration = inputBox.style.textDecoration;
+  parsed_obj.checkboxChecked = e.target.checked;
+  obj = JSON.stringify(parsed_obj);
+  localStorage.setItem(node_id, obj);
 };
 
 function textFocusOut(e){
