@@ -49,7 +49,6 @@
 .input_todo{
   background-color: transparent;
   border-color: transparent;
-  white-space: '해야 할 일을 적어주세요!';
   height: 50px;
   font-size: 30px;
 }
