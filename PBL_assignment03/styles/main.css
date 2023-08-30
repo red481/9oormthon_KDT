@@ -1,0 +1,147 @@
+.main-container{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 100vh;
+}
+
+.profile_zone{
+  border: 1px solid rgb(209, 208, 208);
+  border-radius: 10px 10px;
+  margin: 10px 10px 10px;
+  display: flex;
+  padding: 10px;
+  height: 200px;
+}
+
+.person_view-button_image{
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+.profile_image{
+  background-color: beige;
+  
+}
+
+.view_button{
+  border: 0px solid transparent;
+  background-color: rgb(83, 133, 240);
+  padding : 10px;
+  border-radius: 15px;
+  color: white;
+}
+
+.latest_repo_zone{
+  margin: 10px 10px 10px;
+  
+}
+
+.repo_name{
+  flex: 1;
+}
+
+.additory_information{
+  flex: 1;
+}
+
+.person_information{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.gitHub_information{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.profile_information{
+  display: flex;
+  flex-direction: column;
+  min-height: 128px;
+  border: 1px solid rgb(207, 206, 206);
+  border-radius: 10px;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+.detail_of_gitHub_information{
+  border-radius: 10px;
+  min-height: 30px;
+  min-width: 150px;
+  color: white;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 14px;
+}
+
+.detail_of_profile_information{
+  border-bottom: 1px solid rgb(207, 206, 206);
+  height: 32px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+#public_repos{
+  background-color: rgb(83, 133, 240);
+
+}
+
+#public_gists{
+  background-color: gray;
+}
+
+#followers{
+  background-color: rgb(82, 179, 82);
+}
+
+#following{
+  background-color: rgb(78, 165, 172);
+}
+
+.section{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(207, 206, 206);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.repo_name{
+  color:rgb(52, 52, 243);
+}
+
+.additory_information{
+  display: flex;
+  gap: 10px;
+  
+}
+
+.detail_of_additory_information{
+  border-radius: 5px;
+  color: white;
+  padding-left: 5px;  
+  height: 25px;
+}
+
+#star{
+  background-color:rgb(83, 133, 240);
+  min-width: 100px;
+}
+
+#whatcher{
+  background-color:gray;
+  min-width: 100px;
+}
+
+#fork{
+  background-color:rgb(82, 179, 82);
+  min-width: 100px;
+}

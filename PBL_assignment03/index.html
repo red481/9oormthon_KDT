@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Finder</title>
+  <link rel="stylesheet" href="./styles/general.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/header.css">
+</head>
+<body class="body_container">
+  <header class="header_container">
+    <div class="title"><p>GitHub Finder</p></div>
+    <div class="search_zone">
+      <h1>Search GitHub Users</h1>
+      <p>Enter a username to fetch a user profile and repos</p>
+      <input type="text" class="search_text_input"></input>
+    </div>
+  </header>
+  <main class="main_container">
+    <div class="profile_zone">
+      <div class="person_view-button_image">
+        <div class="profile_image"><img></div>
+        <button class="view_button">View Profile</button>
+      </div>
+      <div class="person_information">
+        <div class="gitHub_information">
+          <div class="detail_of_gitHub_information" id="public_repos">public_repos : </div>
+          <div class="detail_of_gitHub_information" id="public_gists">public_gists : </div>
+          <div class="detail_of_gitHub_information" id="followers">followers : </div>
+          <div class="detail_of_gitHub_information" id="following">following : </div>
+        </div>
+        <div class="profile_information">
+          <div class="detail_of_profile_information" id="company">Company: null</div>
+          <div class="detail_of_profile_information" id="website_blog">Website/blog</div>
+          <div class="detail_of_profile_information" id="location">Location</div>
+          <div class="detail_of_profile_information" id="member_since">Member Since</div>
+        </div>
+      </div>
+    </div>
+    <div class="latest_repo_zone">
+      <h2>Latest Repos</h2>
+      <div class="latest_repos">
+        <div class="section">
+          <div class="repo_name"><p>react-disney-deploy-test</p></div>
+          <div class="additory_information">
+            <div class="detail_of_additory_information" id="star">Stars: </div>
+            <div class="detail_of_additory_information" id="whatcher">Whatchers: </div>
+            <div class="detail_of_additory_information" id="fork">Forks: </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div id="footer_wrapper">
+  <footer class="footer_zone">
+    <span>GitHub Finder&#169;</span>
+  </footer>
+</div>
+</body>
+</html>
