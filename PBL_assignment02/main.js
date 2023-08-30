@@ -65,7 +65,6 @@ function completeTodo(e){
   const inputBox = e.target.parentNode.querySelector('.input_todo');
   if(e.target.checked)
     {inputBox.style.textDecoration = 'line-through';
-    //console.log(e.target.parentNode.parentNode.parentNode.outerHTML);
 }
   else{
     inputBox.style.textDecoration = 'none';
@@ -114,13 +113,8 @@ function loadAndInsertHTML() {
   };
 };
 
-function updateLocalStorage(){
-
-};
-
 function createJson(checkboxTF, textboxValue, textDecor){
   key = generateKey();
-  keyNum += 1;
   todoKeyList.push(key);
   return {'key_id' : key,
           'checkboxChecked' : checkboxTF,
