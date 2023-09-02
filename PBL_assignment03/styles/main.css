@@ -11,17 +11,19 @@
   margin: 10px 10px 10px;
   display: flex;
   padding: 10px;
-  height: 200px;
+  height: 260px;
 }
 
 .person_view-button_image{
   display: flex;
   flex-direction: column;
-  min-width: 300px;
+  justify-content: space-between;
+  min-width: 200px;
 }
 
 .profile_image{
-  background-color: beige;
+  max-width :200px;
+  max-height: 170px;
   
 }
 
@@ -31,6 +33,7 @@
   padding : 10px;
   border-radius: 15px;
   color: white;
+  margin-top :0px;
 }
 
 .latest_repo_zone{
