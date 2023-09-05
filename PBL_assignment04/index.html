@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./main.css">
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
 </head>
 <body>
-  <button id="export_button">Export Spreadsheet</button>
+  <button id="export_button" onclick="exportTableToExcel()">Export Spreadsheet</button>
   <div id = "current_cell"><span>Cell : </span></div>
   <table id="editableTable">
     <thead>

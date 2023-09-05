@@ -22,7 +22,19 @@ table {
   margin: 10px;
 }
 
+#export_button:hover{
+  cursor: pointer;
+}
+
 .current_cell{
   margin-left: 10px;
 }
 
+th, .row-name{
+  background-color: rgb(235, 235, 235);
+}
+
+.row-name{
+  text-align: center;
+  font-weight: 700;
+}
