@@ -1,0 +1,27 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+.cell{
+  border: 2px solid rgb(219, 214, 214);
+  width: 100px;
+  height: 40px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#export_button{
+  border : 0 solid transparent;
+  background-color: rgb(9, 170, 9);
+  height: 40px;
+  width: 140px;
+  margin: 10px;
+}
+
+.current_cell{
+  margin-left: 10px;
+}
