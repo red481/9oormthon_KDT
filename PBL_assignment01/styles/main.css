@@ -1,7 +1,6 @@
 main{
     background-color: black;        
-    margin-bottom: 100px;
-    
+    margin-bottom: 100px;    
 }
 
 
@@ -15,8 +14,7 @@ h2 {
     margin-left: 20px;
     position: relative;
     min-width: 120px;
-    cursor: pointer;
- 
+    cursor: pointer; 
 }
 
 .poster:hover{
